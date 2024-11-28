@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(8, 8, 8);
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    height: 100px;
+
+}
+ul{
+    flex-grow: 0;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+
+}
+
+.intro{
+    display: flex;
+    height: 800px;
+}
+.intro .hemang{
+    text-align: center;
+    flex-grow: 1;
+    font-size: 80px;
+    justify-self: center;
+    align-self: center;
+}
+.intro img{
+    justify-self: right;
+    align-self: center;
+    
+}
+.about h1{
+    text-align: center;
+    font-size: 60px;
+}   
