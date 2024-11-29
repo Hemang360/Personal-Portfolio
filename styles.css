@@ -56,9 +56,13 @@ a{
     font-size: 36px;
     font-family: 'Courier New', Courier, monospace;
 }  
+span{
+    color: rgb(0, 200, 83);
+}
 .para{
     display: flex;
 } 
+
 .logos{
     display: flex;
     justify-content: center;
@@ -87,4 +91,13 @@ a{
 .contact h1:hover
 {
     color:rgb(0, 200, 83);
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
 }
