@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(16, 15, 15);
     color: aliceblue;
 }
 nav{
@@ -12,8 +12,13 @@ ul{
     flex-grow: 0;
     font-size: 30px;
 }
+
+a:hover
+{
+    color: rgb(0, 200, 83);
+}
 a{
-    text-decoration: none;
+    text-decoration:none;
 
 }
 
@@ -27,6 +32,11 @@ a{
     font-size: 80px;
     justify-self: center;
     align-self: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro .hemang:hover
+{
+    color:rgb(0, 200, 83);
 }
 .intro img{
     justify-self: right;
@@ -36,4 +46,45 @@ a{
 .about h1{
     text-align: center;
     font-size: 60px;
-}   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+.about h1:hover{
+    color:rgb(0, 200, 83);
+}
+.about p{
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+}  
+.para{
+    display: flex;
+} 
+.logos{
+    display: flex;
+    justify-content: center;
+}
+.tools{
+    display: flex;
+    justify-content: center;
+}
+.skills h1
+{
+   text-align: center;
+   font-size: 60px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-decoration: underline;
+}
+.skills h1:hover
+{
+    color:rgb(0, 200, 83);
+}
+.contact h1{
+    text-align: center;
+   font-size: 60px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-decoration: underline;
+}
+.contact h1:hover
+{
+    color:rgb(0, 200, 83);
+}
